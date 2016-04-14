@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A94E76BF1CBF2D67000C5367 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A94E76BE1CBF2D67000C5367 /* main.m */; };
+		A94E76C21CBF2D67000C5367 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94E76C11CBF2D67000C5367 /* AppDelegate.m */; };
+		A94E76C51CBF2D67000C5367 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94E76C41CBF2D67000C5367 /* ViewController.m */; };
+		A94E76C81CBF2D67000C5367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94E76C61CBF2D67000C5367 /* Main.storyboard */; };
+		A94E76CB1CBF2D67000C5367 /* FinDer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A94E76C91CBF2D67000C5367 /* FinDer.xcdatamodeld */; };
+		A94E76CD1CBF2D67000C5367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94E76CC1CBF2D67000C5367 /* Assets.xcassets */; };
+		A94E76D01CBF2D67000C5367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94E76CE1CBF2D67000C5367 /* LaunchScreen.storyboard */; };
+		A94E76DB1CBF2D67000C5367 /* FinDerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94E76DA1CBF2D67000C5367 /* FinDerTests.m */; };
+		A94E76E61CBF2D67000C5367 /* FinDerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94E76E51CBF2D67000C5367 /* FinDerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A94E76D71CBF2D67000C5367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94E76B21CBF2D67000C5367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94E76B91CBF2D67000C5367;
+			remoteInfo = FinDer;
+		};
+		A94E76E21CBF2D67000C5367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94E76B21CBF2D67000C5367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94E76B91CBF2D67000C5367;
+			remoteInfo = FinDer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A94E76BA1CBF2D67000C5367 /* FinDer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinDer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94E76BE1CBF2D67000C5367 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A94E76C01CBF2D67000C5367 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A94E76C11CBF2D67000C5367 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A94E76C31CBF2D67000C5367 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A94E76C41CBF2D67000C5367 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A94E76C71CBF2D67000C5367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A94E76CA1CBF2D67000C5367 /* FinDer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinDer.xcdatamodel; sourceTree = "<group>"; };
+		A94E76CC1CBF2D67000C5367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A94E76CF1CBF2D67000C5367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A94E76D11CBF2D67000C5367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A94E76D61CBF2D67000C5367 /* FinDerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinDerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94E76DA1CBF2D67000C5367 /* FinDerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinDerTests.m; sourceTree = "<group>"; };
+		A94E76DC1CBF2D67000C5367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A94E76E11CBF2D67000C5367 /* FinDerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinDerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94E76E51CBF2D67000C5367 /* FinDerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinDerUITests.m; sourceTree = "<group>"; };
+		A94E76E71CBF2D67000C5367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A94E76B71CBF2D67000C5367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94E76D31CBF2D67000C5367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94E76DE1CBF2D67000C5367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A94E76B11CBF2D67000C5367 = {
+			isa = PBXGroup;
+			children = (
+				A94E76BC1CBF2D67000C5367 /* FinDer */,
+				A94E76D91CBF2D67000C5367 /* FinDerTests */,
+				A94E76E41CBF2D67000C5367 /* FinDerUITests */,
+				A94E76BB1CBF2D67000C5367 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A94E76BB1CBF2D67000C5367 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A94E76BA1CBF2D67000C5367 /* FinDer.app */,
+				A94E76D61CBF2D67000C5367 /* FinDerTests.xctest */,
+				A94E76E11CBF2D67000C5367 /* FinDerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94E76BC1CBF2D67000C5367 /* FinDer */ = {
+			isa = PBXGroup;
+			children = (
+				A94E76C01CBF2D67000C5367 /* AppDelegate.h */,
+				A94E76C11CBF2D67000C5367 /* AppDelegate.m */,
+				A94E76C31CBF2D67000C5367 /* ViewController.h */,
+				A94E76C41CBF2D67000C5367 /* ViewController.m */,
+				A94E76C61CBF2D67000C5367 /* Main.storyboard */,
+				A94E76CC1CBF2D67000C5367 /* Assets.xcassets */,
+				A94E76CE1CBF2D67000C5367 /* LaunchScreen.storyboard */,
+				A94E76D11CBF2D67000C5367 /* Info.plist */,
+				A94E76C91CBF2D67000C5367 /* FinDer.xcdatamodeld */,
+				A94E76BD1CBF2D67000C5367 /* Supporting Files */,
+			);
+			path = FinDer;
+			sourceTree = "<group>";
+		};
+		A94E76BD1CBF2D67000C5367 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A94E76BE1CBF2D67000C5367 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A94E76D91CBF2D67000C5367 /* FinDerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A94E76DA1CBF2D67000C5367 /* FinDerTests.m */,
+				A94E76DC1CBF2D67000C5367 /* Info.plist */,
+			);
+			path = FinDerTests;
+			sourceTree = "<group>";
+		};
+		A94E76E41CBF2D67000C5367 /* FinDerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A94E76E51CBF2D67000C5367 /* FinDerUITests.m */,
+				A94E76E71CBF2D67000C5367 /* Info.plist */,
+			);
+			path = FinDerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A94E76B91CBF2D67000C5367 /* FinDer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94E76EA1CBF2D67000C5367 /* Build configuration list for PBXNativeTarget "FinDer" */;
+			buildPhases = (
+				A94E76B61CBF2D67000C5367 /* Sources */,
+				A94E76B71CBF2D67000C5367 /* Frameworks */,
+				A94E76B81CBF2D67000C5367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinDer;
+			productName = FinDer;
+			productReference = A94E76BA1CBF2D67000C5367 /* FinDer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A94E76D51CBF2D67000C5367 /* FinDerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94E76ED1CBF2D67000C5367 /* Build configuration list for PBXNativeTarget "FinDerTests" */;
+			buildPhases = (
+				A94E76D21CBF2D67000C5367 /* Sources */,
+				A94E76D31CBF2D67000C5367 /* Frameworks */,
+				A94E76D41CBF2D67000C5367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94E76D81CBF2D67000C5367 /* PBXTargetDependency */,
+			);
+			name = FinDerTests;
+			productName = FinDerTests;
+			productReference = A94E76D61CBF2D67000C5367 /* FinDerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A94E76E01CBF2D67000C5367 /* FinDerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94E76F01CBF2D67000C5367 /* Build configuration list for PBXNativeTarget "FinDerUITests" */;
+			buildPhases = (
+				A94E76DD1CBF2D67000C5367 /* Sources */,
+				A94E76DE1CBF2D67000C5367 /* Frameworks */,
+				A94E76DF1CBF2D67000C5367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94E76E31CBF2D67000C5367 /* PBXTargetDependency */,
+			);
+			name = FinDerUITests;
+			productName = FinDerUITests;
+			productReference = A94E76E11CBF2D67000C5367 /* FinDerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A94E76B21CBF2D67000C5367 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Lv;
+				TargetAttributes = {
+					A94E76B91CBF2D67000C5367 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A94E76D51CBF2D67000C5367 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A94E76B91CBF2D67000C5367;
+					};
+					A94E76E01CBF2D67000C5367 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A94E76B91CBF2D67000C5367;
+					};
+				};
+			};
+			buildConfigurationList = A94E76B51CBF2D67000C5367 /* Build configuration list for PBXProject "FinDer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A94E76B11CBF2D67000C5367;
+			productRefGroup = A94E76BB1CBF2D67000C5367 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A94E76B91CBF2D67000C5367 /* FinDer */,
+				A94E76D51CBF2D67000C5367 /* FinDerTests */,
+				A94E76E01CBF2D67000C5367 /* FinDerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A94E76B81CBF2D67000C5367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94E76D01CBF2D67000C5367 /* LaunchScreen.storyboard in Resources */,
+				A94E76CD1CBF2D67000C5367 /* Assets.xcassets in Resources */,
+				A94E76C81CBF2D67000C5367 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94E76D41CBF2D67000C5367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94E76DF1CBF2D67000C5367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A94E76B61CBF2D67000C5367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94E76C51CBF2D67000C5367 /* ViewController.m in Sources */,
+				A94E76C21CBF2D67000C5367 /* AppDelegate.m in Sources */,
+				A94E76BF1CBF2D67000C5367 /* main.m in Sources */,
+				A94E76CB1CBF2D67000C5367 /* FinDer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94E76D21CBF2D67000C5367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94E76DB1CBF2D67000C5367 /* FinDerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94E76DD1CBF2D67000C5367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94E76E61CBF2D67000C5367 /* FinDerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A94E76D81CBF2D67000C5367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94E76B91CBF2D67000C5367 /* FinDer */;
+			targetProxy = A94E76D71CBF2D67000C5367 /* PBXContainerItemProxy */;
+		};
+		A94E76E31CBF2D67000C5367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94E76B91CBF2D67000C5367 /* FinDer */;
+			targetProxy = A94E76E21CBF2D67000C5367 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A94E76C61CBF2D67000C5367 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94E76C71CBF2D67000C5367 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A94E76CE1CBF2D67000C5367 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94E76CF1CBF2D67000C5367 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A94E76E81CBF2D67000C5367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A94E76E91CBF2D67000C5367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A94E76EB1CBF2D67000C5367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FinDer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wcl.FinDer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A94E76EC1CBF2D67000C5367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FinDer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wcl.FinDer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A94E76EE1CBF2D67000C5367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FinDerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wcl.FinDerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinDer.app/FinDer";
+			};
+			name = Debug;
+		};
+		A94E76EF1CBF2D67000C5367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FinDerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wcl.FinDerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinDer.app/FinDer";
+			};
+			name = Release;
+		};
+		A94E76F11CBF2D67000C5367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FinDerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wcl.FinDerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FinDer;
+			};
+			name = Debug;
+		};
+		A94E76F21CBF2D67000C5367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FinDerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wcl.FinDerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FinDer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A94E76B51CBF2D67000C5367 /* Build configuration list for PBXProject "FinDer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94E76E81CBF2D67000C5367 /* Debug */,
+				A94E76E91CBF2D67000C5367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94E76EA1CBF2D67000C5367 /* Build configuration list for PBXNativeTarget "FinDer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94E76EB1CBF2D67000C5367 /* Debug */,
+				A94E76EC1CBF2D67000C5367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A94E76ED1CBF2D67000C5367 /* Build configuration list for PBXNativeTarget "FinDerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94E76EE1CBF2D67000C5367 /* Debug */,
+				A94E76EF1CBF2D67000C5367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A94E76F01CBF2D67000C5367 /* Build configuration list for PBXNativeTarget "FinDerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94E76F11CBF2D67000C5367 /* Debug */,
+				A94E76F21CBF2D67000C5367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A94E76C91CBF2D67000C5367 /* FinDer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A94E76CA1CBF2D67000C5367 /* FinDer.xcdatamodel */,
+			);
+			currentVersion = A94E76CA1CBF2D67000C5367 /* FinDer.xcdatamodel */;
+			path = FinDer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A94E76B21CBF2D67000C5367 /* Project object */;
+}
