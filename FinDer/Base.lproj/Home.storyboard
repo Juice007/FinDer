@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MWO-Kq-dBH">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--首页-->
+        <scene sceneID="x3q-RA-o4T">
+            <objects>
+                <viewController id="mFf-yv-Yvh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nDa-ol-2xJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="ln7-7j-qfU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IG2-AF-wvb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="首页" id="dsS-jw-acu">
+                        <barButtonItem key="leftBarButtonItem" image="侧边栏" id="uP7-uN-8M9">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="消息" id="qTe-1Z-jBU">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5am-a7-9mg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1545" y="-204"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="We6-XU-H3W">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MWO-Kq-dBH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="首页" image="首页" id="6nU-IS-AeQ"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="C1g-y5-9Rf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mFf-yv-Yvh" kind="relationship" relationship="rootViewController" id="NkM-pd-5Vh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e7V-GB-mcL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="743" y="-204"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="侧边栏" width="22" height="22"/>
+        <image name="消息" width="25" height="25"/>
+        <image name="首页" width="25" height="25"/>
+    </resources>
+</document>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9ym-uE-DwL">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--我的-->
+        <scene sceneID="tNa-IN-hIT">
+            <objects>
+                <viewController id="pr0-BE-7vp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3LL-tz-rRl"/>
+                        <viewControllerLayoutGuide type="bottom" id="sLE-Z1-SUi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WgF-0o-j3J">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="我的" id="dek-G7-0qz">
+                        <barButtonItem key="leftBarButtonItem" image="侧边栏" id="7pr-Cv-jHc">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="消息" id="aTI-TU-cqW">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YPV-tC-4Hg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="878" y="2526"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="hzS-pz-Whe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9ym-uE-DwL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的" image="我" id="nUb-x2-4Ti"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UmY-Ye-wqu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="pr0-BE-7vp" kind="relationship" relationship="rootViewController" id="lcO-Ie-8FM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fik-5Y-FOb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="239" y="2526"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="侧边栏" width="22" height="22"/>
+        <image name="我" width="25" height="25"/>
+        <image name="消息" width="25" height="25"/>
+    </resources>
+</document>
