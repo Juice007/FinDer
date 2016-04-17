@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A90FC69E1CC118D100BB7A0E /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90FC69C1CC118D100BB7A0E /* Home.storyboard */; };
-		A90FC6A01CC1190400BB7A0E /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90FC69F1CC1190400BB7A0E /* Discovery.storyboard */; };
-		A90FC6A31CC1192000BB7A0E /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90FC6A11CC1192000BB7A0E /* Camera.storyboard */; };
-		A90FC6A51CC1197D00BB7A0E /* Moments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90FC6A41CC1197D00BB7A0E /* Moments.storyboard */; };
-		A90FC6A81CC119C600BB7A0E /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90FC6A61CC119C600BB7A0E /* Me.storyboard */; };
 		A94E76BF1CBF2D67000C5367 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A94E76BE1CBF2D67000C5367 /* main.m */; };
 		A94E76C21CBF2D67000C5367 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94E76C11CBF2D67000C5367 /* AppDelegate.m */; };
 		A94E76C81CBF2D67000C5367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94E76C61CBF2D67000C5367 /* Main.storyboard */; };
@@ -20,6 +15,14 @@
 		A94E76D01CBF2D67000C5367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94E76CE1CBF2D67000C5367 /* LaunchScreen.storyboard */; };
 		A94E76DB1CBF2D67000C5367 /* FinDerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94E76DA1CBF2D67000C5367 /* FinDerTests.m */; };
 		A94E76E61CBF2D67000C5367 /* FinDerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94E76E51CBF2D67000C5367 /* FinDerUITests.m */; };
+		A958B7221CC36BD0003585DA /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A958B7181CC36BD0003585DA /* Camera.storyboard */; };
+		A958B7231CC36BD0003585DA /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A958B71A1CC36BD0003585DA /* Discovery.storyboard */; };
+		A958B7241CC36BD0003585DA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A958B71C1CC36BD0003585DA /* Home.storyboard */; };
+		A958B7251CC36BD0003585DA /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A958B71E1CC36BD0003585DA /* Me.storyboard */; };
+		A958B7261CC36BD0003585DA /* Moments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A958B7201CC36BD0003585DA /* Moments.storyboard */; };
+		A958B7321CC36DAE003585DA /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A958B7311CC36DAE003585DA /* DiscoveryViewController.m */; };
+		A958B7361CC36FD1003585DA /* LVCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A958B7341CC36FD1003585DA /* LVCollectionViewCell.m */; };
+		A958B7371CC36FD1003585DA /* LVCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A958B7351CC36FD1003585DA /* LVCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A90FC69D1CC118D100BB7A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
-		A90FC69F1CC1190400BB7A0E /* Discovery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
-		A90FC6A21CC1192000BB7A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Camera.storyboard; sourceTree = "<group>"; };
-		A90FC6A41CC1197D00BB7A0E /* Moments.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Moments.storyboard; sourceTree = "<group>"; };
-		A90FC6A71CC119C600BB7A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Me.storyboard; sourceTree = "<group>"; };
 		A94E76BA1CBF2D67000C5367 /* FinDer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinDer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94E76BE1CBF2D67000C5367 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A94E76C01CBF2D67000C5367 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +58,16 @@
 		A94E76E11CBF2D67000C5367 /* FinDerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinDerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94E76E51CBF2D67000C5367 /* FinDerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinDerUITests.m; sourceTree = "<group>"; };
 		A94E76E71CBF2D67000C5367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A958B7191CC36BD0003585DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Camera.storyboard; sourceTree = "<group>"; };
+		A958B71B1CC36BD0003585DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Discovery.storyboard; sourceTree = "<group>"; };
+		A958B71D1CC36BD0003585DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		A958B71F1CC36BD0003585DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Me.storyboard; sourceTree = "<group>"; };
+		A958B7211CC36BD0003585DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Moments.storyboard; sourceTree = "<group>"; };
+		A958B7301CC36DAE003585DA /* DiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
+		A958B7311CC36DAE003585DA /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
+		A958B7331CC36FD1003585DA /* LVCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVCollectionViewCell.h; sourceTree = "<group>"; };
+		A958B7341CC36FD1003585DA /* LVCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVCollectionViewCell.m; sourceTree = "<group>"; };
+		A958B7351CC36FD1003585DA /* LVCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LVCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,14 +118,18 @@
 		A94E76BC1CBF2D67000C5367 /* FinDer */ = {
 			isa = PBXGroup;
 			children = (
+				A958B7271CC36BF8003585DA /* Home */,
+				A958B7291CC36C0C003585DA /* Discovery */,
+				A958B72A1CC36C13003585DA /* Camera */,
+				A958B72B1CC36C19003585DA /* Moments */,
+				A958B72C1CC36C24003585DA /* Me */,
 				A94E76C01CBF2D67000C5367 /* AppDelegate.h */,
 				A94E76C11CBF2D67000C5367 /* AppDelegate.m */,
 				A94E76C61CBF2D67000C5367 /* Main.storyboard */,
-				A90FC69C1CC118D100BB7A0E /* Home.storyboard */,
-				A90FC69F1CC1190400BB7A0E /* Discovery.storyboard */,
-				A90FC6A11CC1192000BB7A0E /* Camera.storyboard */,
-				A90FC6A41CC1197D00BB7A0E /* Moments.storyboard */,
-				A90FC6A61CC119C600BB7A0E /* Me.storyboard */,
+				A958B7181CC36BD0003585DA /* Camera.storyboard */,
+				A958B71C1CC36BD0003585DA /* Home.storyboard */,
+				A958B71E1CC36BD0003585DA /* Me.storyboard */,
+				A958B7201CC36BD0003585DA /* Moments.storyboard */,
 				A94E76CC1CBF2D67000C5367 /* Assets.xcassets */,
 				A94E76CE1CBF2D67000C5367 /* LaunchScreen.storyboard */,
 				A94E76D11CBF2D67000C5367 /* Info.plist */,
@@ -151,6 +163,79 @@
 				A94E76E71CBF2D67000C5367 /* Info.plist */,
 			);
 			path = FinDerUITests;
+			sourceTree = "<group>";
+		};
+		A958B7271CC36BF8003585DA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A958B7281CC36BFF003585DA /* View */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A958B7281CC36BFF003585DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A958B7291CC36C0C003585DA /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				A958B72F1CC36D7D003585DA /* Model */,
+				A958B72E1CC36D77003585DA /* View */,
+				A958B72D1CC36D6E003585DA /* Controller */,
+			);
+			name = Discovery;
+			sourceTree = "<group>";
+		};
+		A958B72A1CC36C13003585DA /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		A958B72B1CC36C19003585DA /* Moments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Moments;
+			sourceTree = "<group>";
+		};
+		A958B72C1CC36C24003585DA /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		A958B72D1CC36D6E003585DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A958B7301CC36DAE003585DA /* DiscoveryViewController.h */,
+				A958B7311CC36DAE003585DA /* DiscoveryViewController.m */,
+				A958B7331CC36FD1003585DA /* LVCollectionViewCell.h */,
+				A958B7341CC36FD1003585DA /* LVCollectionViewCell.m */,
+				A958B7351CC36FD1003585DA /* LVCollectionViewCell.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A958B72E1CC36D77003585DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A958B71A1CC36BD0003585DA /* Discovery.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A958B72F1CC36D7D003585DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,14 +341,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A90FC6A01CC1190400BB7A0E /* Discovery.storyboard in Resources */,
-				A90FC6A31CC1192000BB7A0E /* Camera.storyboard in Resources */,
+				A958B7231CC36BD0003585DA /* Discovery.storyboard in Resources */,
 				A94E76D01CBF2D67000C5367 /* LaunchScreen.storyboard in Resources */,
+				A958B7221CC36BD0003585DA /* Camera.storyboard in Resources */,
+				A958B7241CC36BD0003585DA /* Home.storyboard in Resources */,
+				A958B7261CC36BD0003585DA /* Moments.storyboard in Resources */,
 				A94E76CD1CBF2D67000C5367 /* Assets.xcassets in Resources */,
-				A90FC6A51CC1197D00BB7A0E /* Moments.storyboard in Resources */,
+				A958B7251CC36BD0003585DA /* Me.storyboard in Resources */,
 				A94E76C81CBF2D67000C5367 /* Main.storyboard in Resources */,
-				A90FC6A81CC119C600BB7A0E /* Me.storyboard in Resources */,
-				A90FC69E1CC118D100BB7A0E /* Home.storyboard in Resources */,
+				A958B7371CC36FD1003585DA /* LVCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +377,8 @@
 				A94E76C21CBF2D67000C5367 /* AppDelegate.m in Sources */,
 				A94E76BF1CBF2D67000C5367 /* main.m in Sources */,
 				A94E76CB1CBF2D67000C5367 /* FinDer.xcdatamodeld in Sources */,
+				A958B7361CC36FD1003585DA /* LVCollectionViewCell.m in Sources */,
+				A958B7321CC36DAE003585DA /* DiscoveryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,30 +414,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A90FC69C1CC118D100BB7A0E /* Home.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A90FC69D1CC118D100BB7A0E /* Base */,
-			);
-			name = Home.storyboard;
-			sourceTree = "<group>";
-		};
-		A90FC6A11CC1192000BB7A0E /* Camera.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A90FC6A21CC1192000BB7A0E /* Base */,
-			);
-			name = Camera.storyboard;
-			sourceTree = "<group>";
-		};
-		A90FC6A61CC119C600BB7A0E /* Me.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A90FC6A71CC119C600BB7A0E /* Base */,
-			);
-			name = Me.storyboard;
-			sourceTree = "<group>";
-		};
 		A94E76C61CBF2D67000C5367 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -364,6 +428,46 @@
 				A94E76CF1CBF2D67000C5367 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A958B7181CC36BD0003585DA /* Camera.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A958B7191CC36BD0003585DA /* Base */,
+			);
+			name = Camera.storyboard;
+			sourceTree = "<group>";
+		};
+		A958B71A1CC36BD0003585DA /* Discovery.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A958B71B1CC36BD0003585DA /* Base */,
+			);
+			name = Discovery.storyboard;
+			sourceTree = "<group>";
+		};
+		A958B71C1CC36BD0003585DA /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A958B71D1CC36BD0003585DA /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		A958B71E1CC36BD0003585DA /* Me.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A958B71F1CC36BD0003585DA /* Base */,
+			);
+			name = Me.storyboard;
+			sourceTree = "<group>";
+		};
+		A958B7201CC36BD0003585DA /* Moments.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A958B7211CC36BD0003585DA /* Base */,
+			);
+			name = Moments.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -458,6 +562,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FinDer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wcl.FinDer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -469,6 +574,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FinDer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wcl.FinDer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
