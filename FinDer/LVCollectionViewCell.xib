@@ -13,12 +13,21 @@
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="发现icon" translatesAutoresizingMaskIntoConstraints="NO" id="2TP-Yk-XoM">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="发现icon" translatesAutoresizingMaskIntoConstraints="NO" id="2TP-Yk-XoM">
                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                     </imageView>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="2TP-Yk-XoM" secondAttribute="trailing" id="1ez-rh-hho"/>
+                <constraint firstItem="2TP-Yk-XoM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="T4S-xc-bJk"/>
+                <constraint firstItem="2TP-Yk-XoM" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Znn-RP-RNz"/>
+                <constraint firstAttribute="bottom" secondItem="2TP-Yk-XoM" secondAttribute="bottom" id="c4L-Hj-Xa2"/>
+            </constraints>
+            <connections>
+                <outlet property="backImageView" destination="2TP-Yk-XoM" id="XDT-Js-itW"/>
+            </connections>
             <point key="canvasLocation" x="125" y="401"/>
         </collectionViewCell>
     </objects>

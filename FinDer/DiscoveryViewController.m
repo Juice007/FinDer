@@ -9,7 +9,7 @@
 #import "DiscoveryViewController.h"
 #import "LVCollectionViewCell.h"
 
-@interface DiscoveryViewController () <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@interface DiscoveryViewController () <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UISearchBarDelegate>
 
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
@@ -31,9 +31,9 @@ static NSString * const reuseIdentifier = @"LVCell";
     
     _collectionView.delegate = self;
     _collectionView.dataSource = self;
-    [self.view addSubview:_collectionView];
-//    单击手势事件
-    [self tapGesture];
+    _searchBar.delegate = self;
+//    [self.view addSubview:_collectionView];
+    _searchBar.showsCancelButton = YES;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -47,18 +47,29 @@ static NSString * const reuseIdentifier = @"LVCell";
 }
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 99;
+    return 15;
 }
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    LVCollectionViewCell *cell = (LVCollectionViewCell *)[self.collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
+    LVCollectionViewCell *cell = (LVCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     return cell;
+    
 }
 
 
 #pragma mark - UICollectionViewDelegate
--(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    LVCollectionViewCell *cell = (LVCollectionViewCell *)[self.collectionView cellForItemAtIndexPath:indexPath];
     
+    cell.backImageView.backgroundColor = [UIColor yellowColor];
+    
+    [_searchBar resignFirstResponder];
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath {
+    LVCollectionViewCell *cell = (LVCollectionViewCell *)[self.collectionView cellForItemAtIndexPath:indexPath];
+    
+    cell.backImageView.backgroundColor = [UIColor whiteColor];
 }
 
 #pragma mark - UICollectionViewDelegateFlowLayout
@@ -72,22 +83,19 @@ static NSString * const reuseIdentifier = @"LVCell";
     return UIEdgeInsetsMake(kMargin, kMargin, kMargin, kMargin);
 }
 
-- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section {
-    return kMargin;
+//- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section {
+//    return kMargin;
+//}
+//
+//- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section {
+//    return kMargin;
+//}
+
+#pragma mark - UISearchBarDelegate
+- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar {
+    [searchBar resignFirstResponder];
 }
 
-- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section {
-    return kMargin;
-}
-
-- (void)tapGesture {
-    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(foldKeyboard:)];
-    [self.view addGestureRecognizer:tapGesture];
-}
-
-- (void)foldKeyboard:(UITapGestureRecognizer *)tap {
-    [_searchBar resignFirstResponder];
-}
 /*
 #pragma mark - Navigation
 

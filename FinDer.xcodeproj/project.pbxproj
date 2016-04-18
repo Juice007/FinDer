@@ -95,6 +95,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A91702C21CC4DF4500CDF47E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A91702C31CC4DF5700CDF47E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A958B71E1CC36BD0003585DA /* Me.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		A94E76B11CBF2D67000C5367 = {
 			isa = PBXGroup;
 			children = (
@@ -128,7 +143,6 @@
 				A94E76C61CBF2D67000C5367 /* Main.storyboard */,
 				A958B7181CC36BD0003585DA /* Camera.storyboard */,
 				A958B71C1CC36BD0003585DA /* Home.storyboard */,
-				A958B71E1CC36BD0003585DA /* Me.storyboard */,
 				A958B7201CC36BD0003585DA /* Moments.storyboard */,
 				A94E76CC1CBF2D67000C5367 /* Assets.xcassets */,
 				A94E76CE1CBF2D67000C5367 /* LaunchScreen.storyboard */,
@@ -183,7 +197,6 @@
 		A958B7291CC36C0C003585DA /* Discovery */ = {
 			isa = PBXGroup;
 			children = (
-				A958B72F1CC36D7D003585DA /* Model */,
 				A958B72E1CC36D77003585DA /* View */,
 				A958B72D1CC36D6E003585DA /* Controller */,
 			);
@@ -207,6 +220,8 @@
 		A958B72C1CC36C24003585DA /* Me */ = {
 			isa = PBXGroup;
 			children = (
+				A91702C31CC4DF5700CDF47E /* View */,
+				A91702C21CC4DF4500CDF47E /* Controller */,
 			);
 			name = Me;
 			sourceTree = "<group>";
@@ -229,13 +244,6 @@
 				A958B71A1CC36BD0003585DA /* Discovery.storyboard */,
 			);
 			name = View;
-			sourceTree = "<group>";
-		};
-		A958B72F1CC36D7D003585DA /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

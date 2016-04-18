@@ -10,4 +10,6 @@
 
 @interface LVCollectionViewCell : UICollectionViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *backImageView;
+
 @end
