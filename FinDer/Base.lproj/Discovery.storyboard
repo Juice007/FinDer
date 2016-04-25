@@ -67,10 +67,10 @@
                     </view>
                     <navigationItem key="navigationItem" title="发现" id="dml-VE-9Jz">
                         <barButtonItem key="leftBarButtonItem" image="侧边栏" id="ANz-aO-oKz">
-                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="消息" id="R57-wm-xJe">
-                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         </barButtonItem>
                     </navigationItem>
                     <connections>

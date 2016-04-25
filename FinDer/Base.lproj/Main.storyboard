@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar View Controller-->
         <scene sceneID="Ub4-R2-Cag">
             <objects>
-                <tabBarController id="1nA-Ba-udm" sceneMemberID="viewController">
+                <tabBarController id="1nA-Ba-udm" customClass="MainTabBarViewController" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="a58-xj-05w">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -24,7 +24,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fca-pZ-6fD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-601" y="905"/>
+            <point key="canvasLocation" x="-571" y="899"/>
         </scene>
         <!--Home-->
         <scene sceneID="9qq-0z-tnG">
@@ -34,7 +34,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pvw-hg-Ib9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-81" y="528"/>
+            <point key="canvasLocation" x="-76" y="561"/>
         </scene>
         <!--Discovery-->
         <scene sceneID="f2Y-8q-q6v">

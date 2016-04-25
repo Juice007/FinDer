@@ -20,10 +20,10 @@
                     </view>
                     <navigationItem key="navigationItem" title="首页" id="dsS-jw-acu">
                         <barButtonItem key="leftBarButtonItem" image="侧边栏" id="uP7-uN-8M9">
-                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="消息" id="qTe-1Z-jBU">
-                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
@@ -54,7 +54,7 @@
     </scenes>
     <resources>
         <image name="侧边栏" width="22" height="22"/>
-        <image name="消息" width="25" height="25"/>
+        <image name="消息" width="32" height="32"/>
         <image name="首页" width="25" height="25"/>
     </resources>
 </document>

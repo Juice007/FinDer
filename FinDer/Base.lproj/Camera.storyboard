@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Camera View Controller-->
         <scene sceneID="oGD-8l-cAZ">
             <objects>
-                <viewController id="I0k-3g-2mr" sceneMemberID="viewController">
+                <viewController id="I0k-3g-2mr" customClass="CameraViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yoQ-YA-gIM"/>
                         <viewControllerLayoutGuide type="bottom" id="kfy-al-Be8"/>
@@ -28,7 +28,7 @@
         <scene sceneID="6yu-9u-KBH">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MKo-Wa-VlE" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="相机" id="CPw-Sw-OZg"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="相机" id="CPw-Sw-OZg"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gRc-2Y-fLf">
